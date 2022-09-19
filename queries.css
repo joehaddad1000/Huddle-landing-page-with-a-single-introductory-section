@@ -10,6 +10,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    max-width: 1170px;
   }
 
   .image {
@@ -21,10 +22,6 @@
     text-align: left;
     margin-left: 2.5rem;
   }
-.texts a {
-  display: flex;
-  text-align: center;
-}
 
 
   footer .icons {
