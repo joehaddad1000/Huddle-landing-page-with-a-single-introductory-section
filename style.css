@@ -82,6 +82,7 @@ p {
 
 .icons a {
   color: white;
+  cursor: pointer;
 }
 
 .icons a:active {
@@ -95,4 +96,5 @@ p {
 
 .attribution a {
   color: var(--Soft-Magenta);
+  cursor: pointer;
 }

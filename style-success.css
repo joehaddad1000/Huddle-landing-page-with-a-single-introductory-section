@@ -21,4 +21,5 @@ a {
   font-size: 1.4rem;
   padding: .6em;
   border-radius: .6em;
+  cursor: pointer;
 }
