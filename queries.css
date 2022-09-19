@@ -1,0 +1,35 @@
+@media all and (min-width: 779.99px) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    min-height: 100vh;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .image {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .texts {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+.texts a {
+  display: flex;
+  text-align: center;
+}
+
+
+  footer .icons {
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
