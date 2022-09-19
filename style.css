@@ -1,9 +1,61 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+body {
+  background-color: var(--Violet);
+  background-image: url("/images/bg-mobile.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 2.5rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+header img {
+  width: 12rem;
+}
+
+
+.container {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding-bottom: .6em;
+}
+
+p {
+  padding-bottom: 1.25em;
+}
+
+.container a {
+  display: block;
+  color: var(--Violet);
+  background-color: white;
+  text-decoration: none;
+  border-radius: 1.3em;
+  font-size: .9rem;
+  max-width: 100%;
+  padding: 1em;
+  margin-inline: 4.25em;
+  font-weight: 400;
+}
 
 .attribution {
   font-size: 11px;
