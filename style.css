@@ -19,6 +19,7 @@ body {
   padding: 2.5rem;
   color: white;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 
 header img {
@@ -49,12 +50,42 @@ p {
   color: var(--Violet);
   background-color: white;
   text-decoration: none;
-  border-radius: 1.3em;
+  border-radius: 2em;
   font-size: .9rem;
   max-width: 100%;
   padding: 1em;
   margin-inline: 4.25em;
   font-weight: 400;
+  box-shadow: 1rem black;
+}
+
+.container a:active {
+  color: white;
+  background-color: var(--Soft-Magenta);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+.icons ion-icon {
+  border: .1em solid white;
+  border-radius: 22.5em;
+  padding: .2em;
+  margin: .5em;
+}
+
+.icons a {
+  color: white;
+}
+
+.icons a:active {
+  color: var(--Soft-Magenta);
 }
 
 .attribution {
@@ -63,5 +94,5 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Soft-Magenta);
 }
